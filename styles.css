@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.attribution{
+    display: none;
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    margin: 100px auto;
+    padding: 2rem 25px;
+    border-radius: 7px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-img img{
+    border-radius: 50%;
+    width: 52px;
+    margin-top: -8px;
+}
+
+.div-titles{
+    margin-top: 13px;
+}
+.div-titles h1{
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.div-titles h4{
+    margin-top: 6px;
+    font-size: 0.53rem;
+    color: hsl(75, 94%, 57%);
+}
+
+.div-titles p{
+    margin-top: 17px;
+    font-size: 0.53rem;
+}
+
+.links{
+    margin-top: 15px;
+    font-size: 8.8px;
+    margin-bottom: -17px;
+}
+
+.links li{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    padding: 8.5px;
+    margin-bottom: 8.8px;
+    font-weight: 600;
+}
+
+.links li:hover{
+    list-style-type: none;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    font-weight: 600;
+}
+
+@media (max-width: 375px) {
+    .container{
+        background-color: hsl(0, 0%, 12%);
+        margin: 100px auto;
+        height: 405px;
+        padding: 17px;
+    }
+    
+    .div-img img{
+        border-radius: 50%;
+        width: 52px;
+        margin-top: -8px;
+    }
+    
+    .div-titles{
+        margin-top: 13px;
+    }
+    .div-titles h1{
+        font-size: 0.9rem;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .div-titles h4{
+        margin-top: 6px;
+        font-size: 0.53rem;
+        color: hsl(75, 94%, 57%);
+    }
+    
+    .div-titles p{
+        margin-top: 17px;
+        font-size: 0.53rem;
+    }
+    
+    .links{
+        margin-top: 15px;
+        font-size: px;
+        margin-bottom: -17px;
+    }
+    
+    .links li{
+        list-style-type: none;
+        background-color: hsl(0, 0%, 20%);
+        border-radius: 5px;
+        padding: 8.5px;
+        margin-bottom: 8.8px;
+    }
+    
+    .links li:hover{
+        list-style-type: none;
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 8%);
+        font-weight: 600;
+    }
+
+    #last{
+        margin-bottom: 40px;
+    }
+}
